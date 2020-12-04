@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>CSS Template</title>
@@ -100,4 +99,3 @@ footer {
 </footer>
 
 </body>
-</html>
