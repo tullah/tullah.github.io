@@ -33,9 +33,13 @@
 	</script>
 	<!-- end navbar -->
 
-  
 
 
+	<!-- begin footer pull using jquery get-->
+	<script id="footer">
+		$.get("footer.html", function(data){$("#footer").replaceWith(data);});
+	</script>
+	<!-- end footer -->
 
 	<!-- END BODY -->
 </body>
