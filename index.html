@@ -1,18 +1,39 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>Tariq's Main Page</title>
-  <meta name="Tariq personal site" content="Just whatever">
-  <meta name="triqmoolah" content="Website">
+	<title>Tariq's Main Page</title>
+	<meta name="Tariq personal site" content="Just whatever">
+	<meta name="triqmoolah" content="Website">
 
-  <link rel="stylesheet" href="css/styles.css">
+	<!-- import css stylesheet -->
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- import jquery from google cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
 
 </head>
 
 <body>
-  <script src="js/script.js"></script>
+	<!-- import javascript file -->
+	<script src="js/script.js">
+
+	</script>
+
+	<!-- begin body -->
+
+	<script id="nav">
+		$.get("nav.html", function(data){$("#nav").replaceWith(data);});
+	</script>
+
+
+
+	<!-- end body -->
 </body>
+
 </html>
