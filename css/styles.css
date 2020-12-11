@@ -1,5 +1,10 @@
-body {margin: 0;}
+body {
+  margin: 0;
+  font-family: "Sofia", sans-serif;
+}
 
+
+/* Begin Nav settings */
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -18,17 +23,29 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #96B6C5;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #96B6C5;
+}
 
-ul.topnav li a.active {background-color: #ADC4CE;}
+ul.topnav li a.active {
+  background-color: #ADC4CE;
+}
 
-ul.topnav li.right {float: right;}
+/*float the about to the right of the nav*/
+ul.topnav li.right {
+  float: right;
+  }
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+/*end nav settings */
 
+
+
+
+/* begin footer settings */
 .footer {
    position: fixed;
    left: 0;
@@ -38,3 +55,4 @@ ul.topnav li.right {float: right;}
    color: white;
    text-align: center;
 }
+/*end footer settings */

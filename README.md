@@ -13,6 +13,8 @@ Pearl (#EEE0C9),
 Alabaster (#F1F0E8) and 
 Bone (#E4DECB).
 
+# Font 
+font-family: "Sofia", sans-serif;
 # HTML
 
 # JQuery
